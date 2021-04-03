@@ -6,7 +6,7 @@ import pytest
 # Change made by Y
 # Now thi sis change made by X
 
-
+#This line is supposed to cause conflict
 def pytest_addoption(parser):
     parser.addoption(
         "--browser_name", action="store", default="Chrome"
